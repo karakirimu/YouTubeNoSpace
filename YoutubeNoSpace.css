@@ -34,7 +34,7 @@ ytd-watch-flexy[flexy]:not([theater]):not([fullscreen]) {
 
 /* Chat space */
 #chat.ytd-watch-flexy {
-    height: var(--ytd-watch-flexy-min-player-height) !important;
+    height: calc(var(--ytd-watch-flexy-max-player-height) - 4 * var(--ytd-margin-12x)) !important;
 }
 
 .html5-video-container,
